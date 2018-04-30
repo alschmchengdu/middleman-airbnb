@@ -1,0 +1,18 @@
+- city: Paris, FR
+  title: River Home
+  description: Really beautiful place right on the river
+  image: https://kitt.lewagon.com/placeholder/cities/paris
+  avatar: https://kitt.lewagon.com/placeholder/users/ssaunier
+
+- city: London, EN
+  title: Cottage Gardens
+  description: Sooooooo BEautifulllllllll
+  image: https://kitt.lewagon.com/placeholder/cities/London
+  avatar: https://kitt.lewagon.com/placeholder/users/ssaunier
+
+- city: Tokyo, JP
+  title: Cottage Place
+  description: Sooooooo BEautifulllllllll
+  image: https://kitt.lewagon.com/placeholder/cities/tokyo
+  avatar: https://kitt.lewagon.com/placeholder/users/ssaunier
+

@@ -2,14 +2,14 @@
 title: Le Wagon - Middleman
 ---
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
-  </div>
-</div>
+ <%= partial "components/banner" %>
+    <h1>Recent Flats</h1>
+    <div class="cards-container container">
+      <div class="row">
+        <% data.cities.each do |city| %>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <%= partial "components/card", :locals => { :city => city } %>
+          </div>
+        <% end %>
+      </div>
+    </div>
