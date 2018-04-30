@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+  font-size: 18px;
+  background: #F4F4F4;
+  align-items: center;
+}
+.footer-copyright {
+  position: relative;
+  right: 5px;
+  text-align: right;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
